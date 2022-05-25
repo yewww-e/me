@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+	<title>사실은지루했던이야기</title>
+	<style type="text/css">
+		html {
+			font-family: 'Gothic A1', sans-serif;
+			font-size: 1.2vw;
+			scroll-behavior: smooth;
+			background-image: url("papertexture.jpg");
+			background-repeat : no-repeat;
+      	 	background-size : cover;
+			}
+		body, h2, h3, h4, p, a, ul, li {
+			margin: 0; 
+			padding: 0; 
+			word-break: keep-all; 
+			text-decoration: none;
+		 	list-style:none;
+		 	color: black;
+			}
+
+		h1 { font-size: 4vw; }
+		h2 { font-size: 2vw; font-weight: 400;}
+		p {font-size: 1.6vw; line-height: 190%;}
+
+		nav {
+			opacity: 70%;
+			position: sticky; 
+			top: 0;
+			z-index: 20;
+			vertical-align: baseline;
+			}
+
+		.desktop {
+			display: flex;
+			gap: 30px;
+			padding: 10px 0px;
+			border-bottom: solid 1px;
+			background: white;
+			opacity: 70%;
+		}
+		.desktop li{
+			display: inline-block;
+		}
+		.desktop li a {
+			display: block;
+			padding: 10px 10px;
+			align-self: flex-end;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+  			transform-origin: bottom;
+						}
+		.desktop li a:hover {
+			animation-name: bounce;
+  			animation-timing-function: ease;
+		}
+		.desktop li a img {padding-left: 1vw;}
+		@keyframes bounce {
+		  0%   { transform: translateY(0); }
+		  50%  { transform: translateY(-10px); }
+		  100% { transform: translateY(0); }
+		}
+
+		.padding {
+			padding-top: 200px;
+			padding-bottom: 30px;}
+		.row {
+			width: 1200px;
+			margin: auto;
+		}
+		.row h1 {
+			width: 33.3%;
+			text-align: center;
+			height: auto;
+		}
+		.flex {
+			display: flex; 
+			flex-wrap: wrap;
+			}
+		.flex span {height: auto;}
+
+	
+
+		@media screen and (max-width: 734px) {
+			.row {width: 95%;}
+			.row img {width: 50%;}
+			p {font-size: 1.5rem;}
+			.row .right {text-align: right;}
+			.row .left {text-align: left;}
+			.row h2 { width: 100%;background: red;}
+		}
+
+		.red {
+					background-color: red;
+					color: white;
+					padding: 5px 2px;
+				}
+		.center { text-align: center; margin: auto;}
+		.line {padding: 300px 0px;}
+		.top {padding-top: 5%;}
+		.black	{background: black;}
+		.black p {color: white;}
+	</style>
+</head>
+<body>
+	<nav>
+		<div class="center">
+			<ul class="desktop">
+				<li><a href="#00"><img src="navbar-07.svg" width="50%"></a></li>
+				<li><a href="#01"><span style="font-family: Noto Serif KR, serif;">서비스</span> 소개</a></li>
+				<li><a href="#02"><span style="font-family: Noto Serif KR, serif;">반응</span>하다</a></li>
+				<li><a href="">실<span style="font-family: Noto Serif KR, serif;">천</span>하다</a></li>
+				<li><a href=""><span style="font-family: Noto Serif KR, serif;">주의</span>하다</a></li>
+			</ul>
+		</div>
+	</nav>
+<section>
+	<div class="row flex padding" id="00">
+		<h1 class="top right">사실은 </h1>
+		<h1><img src="title.svg"></h1>
+		<h1 class="top left"> 했던 이야기</h1>
+	</div>
+
+</section>
+<section>
+	<div class="center">
+		<h2>ㄴ 지루한 이야기가 들려올 때 <span class="red" style="font-family: Noto Serif KR, serif; text-decoration: underline;">T</span> 나지 않게 잘 들어주는 방법</h2>
+		<div class="line">
+			<img src="line.svg">
+		</div>
+	</div>
+</section>
+<section>
+	<div class="row flex center" id="01">
+		<p><img src="top.png" width="50%"></p>
+		<p class="center">특별한 관심이 없는 / 지루한 / 매일 듣는  -  <br>이야기가 나와도 타인의 이야기를 잘 들어줄 수 있는 방법 ! <br><span class="red" style="font-family: Noto Serif KR, serif; text-decoration: underline;">경청의 페르소나</span>를 만들어보세요</p>
+	</div>
+	<div class="row flex center top">
+		<p><img src="eye.png" width="50%"></p>
+		<p class="center">짧고 굵게 소개합니다<br>제 <span class="red" style="font-family: Noto Serif KR, serif; text-decoration: underline;">눈</span>을 바라보세요 경청해주세요</p>
+	</div>
+	<div class="row flex center top">
+		<a class="center top"><span style="font-family: Noto Serif KR, serif; ">lo</span>ad<span style="font-family: Noto Serif KR, serif; ">in</span>g ... <br>(경청의)<span style="font-family: Noto Serif KR, serif; ">페르소나</span> <span style="font-family: Noto Serif KR, serif; ">변신 중</span></a>
+		<a class="top"><img src="load.gif" width="50%"></a>
+	</div>
+</section>
+<section class="black">
+	<div class="center padding" id="02">
+		<p><span style="font-family: Noto Serif KR, serif; ">경청</span>의 페르소나 만들기</p>
+		<p>STEP BY STEP</p>
+	</div>
+	<div>
+		
+	</div>
+</section>
+</body>
+</html>
+
+<!--
+
+
+		.row .right {
+			text-align: right;
+			padding-top: 5%;
+		}
+		.row .left {
+			text-align: left;
+			padding-top: 5%;
+		}
+
+
+			<footer>
+		<div class="row">
+			<p>copyright&copy;2022 YEWWW Studio 모든 권리 보유</p>
+		</div>
+	</footer>
+	-->
